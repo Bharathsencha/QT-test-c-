@@ -1,0 +1,26 @@
+/*
+cmake_minimum_required(VERSION 3.16)
+project(Calculator)
+
+set(CMAKE_CXX_STANDARD 11)
+set(CMAKE_AUTOMOC ON)
+set(CMAKE_AUTOUIC ON)
+
+find_package(Qt6 COMPONENTS Widgets REQUIRED)
+
+add_executable(calculator
+    main.cpp
+    calculator.cpp
+    calculator.h
+)
+
+target_link_libraries(calculator Qt6::Widgets)
+*/
+
+// To compile with qmake, create calculator.pro:
+/*
+QT += widgets
+TARGET = calculator
+SOURCES += main.cpp calculator.cpp
+HEADERS += calculator.h
+*/

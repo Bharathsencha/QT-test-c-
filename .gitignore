@@ -1,0 +1,79 @@
+# Qt-generated files
+*.pro.user
+*.pro.user.*
+*.qmake.cache
+*.qmake.stash
+moc_*.cpp
+moc_*.h
+moc_predefs.h
+qrc_*.cpp
+ui_*.h
+*.moc
+
+# Build directories
+build/
+build-*/
+debug/
+release/
+Debug/
+Release/
+
+# Compiled Object files
+*.o
+*.obj
+*.slo
+*.lo
+
+# Compiled Dynamic libraries
+*.so
+*.so.*
+*.dylib
+*.dll
+
+# Compiled Static libraries
+*.a
+*.la
+*.lai
+*.lib
+
+# Executables
+*.exe
+*.out
+*.app
+calculator
+
+# Makefiles
+Makefile
+Makefile.*
+
+# Qt Creator project files (optional - uncomment if you don't want to track them)
+# *.pro
+# CMakeLists.txt.user
+
+# CMake files
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+*.cmake
+
+# Auto-generated project files
+*.*~
+*.autosave
+*.user
+*.bak
+*.swp
+*.swo
+*~
+
+# IDE-specific files
+.vscode/
+.idea/
+*.creator
+*.creator.user
+*.files
+*.includes
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+Desktop.ini
